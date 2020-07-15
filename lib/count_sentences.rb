@@ -1,5 +1,3 @@
-require 'pry'
-
 class String
 
   def sentence?
@@ -37,6 +35,7 @@ class String
         array << segment
       end
     end.count
+    
   end
 
 end
